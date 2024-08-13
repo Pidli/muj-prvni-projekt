@@ -1,0 +1,30 @@
+@import './base.css';
+
+body {
+  background-color: var(--barva-pozadi-primarni);
+  color: var(--barva-textu);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding-bottom: 10rem;
+}
+
+a {
+  color: var(--barva-textu);
+}
+
+button {
+  margin: 0.1rem;
+}
+
+hr {
+  margin: 0.5rem 0rem;
+}
+
+h1, h2, h3 {
+  color: #10a283;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
