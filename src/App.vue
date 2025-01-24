@@ -15,6 +15,10 @@ import DirektivaBindKey from "./components/DirektivaBindKey.vue"
 import DetekceZmenyPole from "./components/DetekceZmenyPole.vue"
 import DirektivaModel from "./components/DirektivaModel.vue"
 import DirektivaBindValue from "./components/DirektivaBindValue.vue"
+import DirektivaModelModifikatory from "./components/DirektivaModelModifikatory.vue"
+import LifecycleHooky from "./components/LifecycleHooky.vue"
+import ReaktivitaWatch from "./components/ReaktivitaWatch.vue"
+import TemplateRef from "./components/TemplateRef.vue"
 </script>
 
 <template>
@@ -71,6 +75,18 @@ import DirektivaBindValue from "./components/DirektivaBindValue.vue"
     </div>
     <div class="karta">
       <DirektivaBindValue />
+    </div>
+    <div class="karta">
+      <DirektivaModelModifikatory />
+    </div>
+    <div class="karta">
+      <LifecycleHooky />
+    </div>
+    <div class="karta">
+      <ReaktivitaWatch />
+    </div>
+    <div class="karta">
+      <TemplateRef />
     </div>
   </div>
 </template>
